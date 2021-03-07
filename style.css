@@ -21,7 +21,7 @@
     display: flex;
     flex-direction: row;
     position: absolute;
-    height: 200px;
+    height: 20%;
     width: 100%;
     margin-left: 0px;
     margin-right: 0px;
@@ -34,7 +34,6 @@
 #breakfast,
 #lunch,
 #dinner {
-    height: 200px;
     width: 25%;
     position: relative;
     text-align: center;
@@ -88,4 +87,92 @@
 #lunch p,
 #dinner p {
     margin-top: 80px;
+}
+#food {
+    display: flex;
+    flex-direction: column;
+}
+
+#fast_food {
+    position: absolute;
+    top: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#drinks {
+    position: absolute;
+    top: 140%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.foodpic {
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    height: 445px;
+    border: 10px solid white;
+    box-shadow: 0px 0px 5px gray;
+}
+
+.drinkpic {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    height: 445;
+    border: 10px solid white;
+    box-shadow: 0px 0px 5px gray;
+}
+
+.right_description {
+    padding-left: 80px;
+    width: 30%;
+    color: #444444;
+}
+
+.left_description {
+    padding-right: 80px;
+    width: 30%;
+    color: #444444;
+    text-align: right;
+}
+
+#food p {
+    font-family: sans-serif;
+    font-size: small;
+    color: #636363;
+}
+
+.box_link {
+    margin-top: 40px;
+}
+
+.box_link a {
+    border: 2px solid #F15A29;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.box_link a:link {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #F15A29;
+}
+
+.box_link a:visited {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #F15A29;
+}
+
+.box_link a:hover {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    box-shadow: 0px 0px 2px #444444;
 }
