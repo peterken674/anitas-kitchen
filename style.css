@@ -49,6 +49,7 @@
 #offers>#happy_hour {
     background-color: lightgray;
     text-align: center;
+    color: #444444;
 }
 
 #offers>#party_time {
@@ -129,13 +130,13 @@
 
 .right_description {
     padding-left: 80px;
-    width: 30%;
+    width: 25%;
     color: #444444;
 }
 
 .left_description {
     padding-right: 80px;
-    width: 30%;
+    width: 25%;
     color: #444444;
     text-align: right;
 }
@@ -233,4 +234,109 @@
 #top_nav>a:hover {
     text-decoration: none;
     font-weight: bold;
+}
+#pics {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#pics>div {
+    width: 20%;
+    padding: 40px;
+    color: #F15A29;
+    font-family: sans-serif;
+}
+
+#pics>div>i {
+    color: #F15A29;
+    font-size: xx-large;
+    margin-top: 100px;
+    padding: 5px;
+}
+
+#testimonials_container {
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    top: 2548px;
+    left: 0px;
+    text-align: center;
+    justify-content: center;
+}
+
+#testimonials {
+    position: relative;
+    background-color: white;
+    width: 70%;
+    height: 75%;
+    text-align: center;
+    box-shadow: 0px 0px 5px gray;
+    display: flex;
+    flex-direction: row;
+    font-size: small;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+}
+
+#testimonials div {
+    width: 50%;
+    padding: 40px;
+
+}
+
+#testimonials div p {
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+#customers_pics {
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: auto;
+    height: 30px;
+}
+
+#p1 {
+    background-image: url(assets/customers/p1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transform: scale(0.8);
+    margin: 5px;
+}
+
+#p2 {
+    background-image: url(assets/customers/p2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 5px;
+}
+
+#p3 {
+    background-image: url(assets/customers/p3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transform: scale(0.8);
+    margin: 5px;
+}
+
+#customers_pics div i {
+    color: #F15A29;
+    font-size: x-large;
+    position: absolute;
+
+}
+
+#customers h4 {
+    color: #F15A29;
+}
+
+#about_menu h4 {
+    color: #F15A29;
 }
